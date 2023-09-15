@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Help and Training Videos</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Online Help and Training Videos</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#training-manuals">Training Manuals</a></li>
+            <li><a href="#support-faqs">Support FAQs</a></li>
+            <li><a href="#customer-forums">Customer Support Forums</a></li>
+            <li><a href="#instructional-videos">Instructional Videos</a></li>
+            <li><a href="#newsletters">Informational Newsletters</a></li>
+            <li><a href="#webinars">Webinars (Live and Archived)</a></li>
+            <li><a href="#request-forms">Request Forms</a></li>
+            <li><a href="#online-courses">Online Education Courses</a></li>
+            <li><a href="#social-updates">Social Media Updates</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="training-manuals">
+            <h2>Training Manuals</h2>
+            <!-- Add content and links to training manuals here -->
+        </section>
+        
+        <section id="support-faqs">
+            <h2>Support FAQs</h2>
+            <!-- Add frequently asked questions and answers here -->
+        </section>
+        
+        <section id="customer-forums">
+            <h2>Customer Support Forums</h2>
+            <!-- Include links and descriptions for support forums -->
+        </section>
+        
+        <section id="instructional-videos">
+            <h2>Instructional Videos</h2>
+            <!-- Embed instructional videos or provide links -->
+        </section>
+        
+        <section id="newsletters">
+            <h2>Informational Newsletters</h2>
+            <!-- Include newsletter archives and sign-up forms -->
+        </section>
+        
+        <section id="webinars">
+            <h2>Webinars (Live and Archived)</h2>
+            <!-- Add information about upcoming live webinars and links to archived webinars -->
+        </section>
+        
+        <section id="request-forms">
+            <h2>Request Forms</h2>
+            <!-- Include forms for users to request support or information -->
+        </section>
+        
+        <section id="online-courses">
+            <h2>Online Education Courses</h2>
+            <!-- Provide information about available courses and links to access them -->
+        </section>
+        
+        <section id="social-updates">
+            <h2>Social Media Updates</h2>
+            <!-- Display social media feeds or links to profiles for updates -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Your Company Name</p>
+    </footer>
+</body>
+</html>
