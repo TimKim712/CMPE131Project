@@ -3,77 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Help and Training Videos</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>City of Williamston</title>
 </head>
 <body>
-    <header>
-        <h1>Online Help and Training Videos</h1>
+<header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="logo">
+                    <img src="CountyLogo.png" alt="County Logo">
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Boards & Commissions</a></li>
+                    <li><a href="#">Departments</a></li>
+                    <li><a href="#">Our Community</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Visit Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
+    <subheader>
+        <h1>Online Help and Training Videos</h1>
+    </subheader>
     
-    <nav>
-        <ul>
-            <li><a href="#training-manuals">Training Manuals</a></li>
-            <li><a href="#support-faqs">Support FAQs</a></li>
-            <li><a href="#customer-forums">Customer Support Forums</a></li>
-            <li><a href="#instructional-videos">Instructional Videos</a></li>
-            <li><a href="#newsletters">Informational Newsletters</a></li>
-            <li><a href="#webinars">Webinars (Live and Archived)</a></li>
-            <li><a href="#request-forms">Request Forms</a></li>
-            <li><a href="#online-courses">Online Education Courses</a></li>
-            <li><a href="#social-updates">Social Media Updates</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section id="training-manuals">
-            <h2>Training Manuals</h2>
-            <!-- Add content and links to training manuals here -->
-        </section>
-        
+    <main> 
         <section id="support-faqs">
             <h2>Support FAQs</h2>
+            <nav>
+                <ul>
+                    <li><a href="#support-faqs">Support FAQs</a></li>
+                    <!-- Add links to support FAQs here -->
+                </ul>
+            </nav>
             <!-- Add frequently asked questions and answers here -->
         </section>
         
         <section id="customer-forums">
             <h2>Customer Support Forums</h2>
+            <nav>
+                <ul>
+                    <li><a href="#customer-forums">Customer Support Forums</a></li>
+                    <!-- Add links and descriptions for support forums -->
+                </ul>
+            </nav>
             <!-- Include links and descriptions for support forums -->
         </section>
         
         <section id="instructional-videos">
             <h2>Instructional Videos</h2>
+            <nav>
+                <ul>
+                    <li><a href="#instructional-videos">Instructional Videos</a></li>
+                    <!-- Add links to instructional videos here -->
+                </ul>
+            </nav>
             <!-- Embed instructional videos or provide links -->
         </section>
         
-        <section id="newsletters">
+        <section id="informational-newsletters">
             <h2>Informational Newsletters</h2>
+            <nav>
+                <ul>
+                    <li><a href="#informational-newsletters">Informational Newsletters</a></li>
+                    <!-- Add links to informational newsletters here -->
+                </ul>
+            </nav>
             <!-- Include newsletter archives and sign-up forms -->
         </section>
         
         <section id="webinars">
             <h2>Webinars (Live and Archived)</h2>
+            <nav>
+                <ul>
+                    <li><a href="#webinars">Webinars (Live and Archived)</a></li>
+                    <!-- Add links to webinars here -->
+                </ul>
+            </nav>
             <!-- Add information about upcoming live webinars and links to archived webinars -->
         </section>
         
         <section id="request-forms">
             <h2>Request Forms</h2>
+            <nav>
+                <ul>
+                    <li><a href="#request-forms">Request Forms</a></li>
+                    <!-- Add links to request forms here -->
+                </ul>
+            </nav>
             <!-- Include forms for users to request support or information -->
         </section>
         
         <section id="online-courses">
-            <h2>Online Education Courses</h2>
+            <h2>Online Educational Courses</h2>
+            <nav>
+                <ul>
+                    <li><a href="#online-courses">Online Educational Courses</a></li>
+                    <!-- Add links to online courses here -->
+                </ul>
+            </nav>
             <!-- Provide information about available courses and links to access them -->
         </section>
         
-        <section id="social-updates">
-            <h2>Social Media Updates</h2>
+        <section id="social-media">
+            <h2>Social Media</h2>
+            <nav>
+                <ul>
+                    <li><a href="#social-media">Social Media</a></li>
+                    <!-- Add links to social media here -->
+                </ul>
+            </nav>
             <!-- Display social media feeds or links to profiles for updates -->
         </section>
     </main>
     
     <footer>
-        <p>&copy; 2023 Your Company Name</p>
+        <p>&copy; 2023 County Website</p>
     </footer>
 </body>
 </html>
