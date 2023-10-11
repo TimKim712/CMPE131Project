@@ -28,8 +28,8 @@
         <h1>Online Help and Training Videos</h1>
     </subheader>
     
-    <main> 
-        <section id="support-faqs">
+    <main>
+            <section id="support-faqs">
             <h2>Support FAQs</h2>
             <nav>
                 <ul>
@@ -106,12 +106,12 @@
             <!-- Provide information about available courses and links to access them -->
         </section>
         
-        <section id="social-media">
-            <h2>Social Media</h2>
+        <section id="social-updates">
+            <h2>Social Media Updates</h2>
             <nav>
                 <ul>
-                    <li><a href="#social-media">Social Media</a></li>
-                    <!-- Add links to social media here -->
+                    <li><a href="#social-updates">Social Media Updates</a></li>
+                    <!-- Add links to social media updates here -->
                 </ul>
             </nav>
             <!-- Display social media feeds or links to profiles for updates -->
