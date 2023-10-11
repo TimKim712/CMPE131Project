@@ -1,0 +1,207 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Source Sans Pro', helvetica 'neue', Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #252525;
+}
+
+/* Center the main section and evenly space columns */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px; /* Adjust this value as needed for spacing between grid items */
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #000;
+    justify-content: space-between; /* Distribute columns evenly */
+}
+
+/* Additional styling for your main section if needed */
+
+.top-nav {
+    padding: 10px 0;
+    color: #FFF;
+}
+
+.top-nav .logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.top-nav ul {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.top-nav li {
+    margin-right: 20px;
+}
+
+.top-nav a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.top-nav a:hover {
+    color: #FFDC00;
+}
+
+/* About Us section */
+.hero {
+    background-image: url('GRAND-RIVER-STREET-1909.jpg');
+    background-size: 1500px 400px; 
+    background-repeat: no-repeat;
+    padding: 20px;
+
+    color: #662626;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-family: bradley hand, cursive;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-weight: bold;
+    font-family: baskerville, serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #FFDC00;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #FFC000;
+}
+
+
+/* Services section */
+.services {
+    background-color: #FFF;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Departments section */
+.departments {
+    background-color: #0074D9;
+    color: #FFF;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.departments h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.department-card {
+    background-color: #0096FF;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.department-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* News section */
+.news {
+    background-color: #FFF;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.news-article {
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.news-article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #0074D9;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .top-nav ul {
+        flex-direction: column;
+    }
+
+    .top-nav li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
