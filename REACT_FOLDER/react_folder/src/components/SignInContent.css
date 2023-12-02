@@ -1,0 +1,54 @@
+
+.SignIn-content body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 0;
+}
+
+.SignIn-content h2 {
+  color: #333;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.SignIn-content form {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.SignIn-content label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.SignIn-content input[type="text"],
+.SignIn-content input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.SignIn-content input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 3px;
+  width: 360px;
+  cursor: pointer;
+}
+
+.SignIn-content input[type="submit"]:hover {
+  background-color: #0056b3;
+}
