@@ -39,6 +39,7 @@ export const AboutUsButton = ({
         type={type}
       >
         {children}
+        About Us
       </button>
     </Link>
   );

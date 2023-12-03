@@ -16,7 +16,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          Contact
+          
         </ContactUsButton>
         <AboutUsButton
           className='btns'
@@ -24,7 +24,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-         About Us
+         
         </AboutUsButton>
       </div>
     </div>
