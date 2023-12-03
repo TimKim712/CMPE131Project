@@ -1,0 +1,55 @@
+
+.Service-content body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 0;
+}
+
+.Service-content {
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/arpitamisal/Desktop/CMPE_PROJECT/CMPE131Project/frontend/public/images/image8.jpeg'); /* Add your image URL here */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  padding: 20px;
+  
+}
+
+.Service-content h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.Service-content ul {
+  background-color: #faf6f6;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Service-content li {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.Service-content a {
+  display: block; /* Make the link fill the entire box */
+  margin-bottom: 30px;
+  font-size: 18px; /* Font size of links */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: none; /* Removes the underline from links */
+  color: #220150; /* Link color */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Service-content a:hover {
+  color: #ffffff; /* Color change on hover */
+}

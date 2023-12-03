@@ -1,4 +1,3 @@
-
 .SignIn-content body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -6,14 +5,23 @@
   padding: 0;
 }
 
+.SignIn-content {
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/arpitamisal/Desktop/CMPE_PROJECT/CMPE131Project/frontend/public/images/image8.jpeg'); /* Add your image URL here */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  padding: 20px;
+}
+
 .SignIn-content h2 {
-  color: #333;
+  color: #ffffff;
+  text-align: center;
   margin-top: 100px;
   margin-bottom: 20px;
 }
 
 .SignIn-content form {
-  background-color: #fff;
+  background-color: #faf6f6;
   max-width: 400px;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -32,13 +40,13 @@
 .SignIn-content input[type="password"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
 
 .SignIn-content input[type="submit"] {
-  background-color: #007bff;
+  background-color: #4a719c;
   color: #fff;
   padding: 10px 20px;
   margin-top: 30px;
@@ -50,5 +58,5 @@
 }
 
 .SignIn-content input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #1f3d5c;
 }

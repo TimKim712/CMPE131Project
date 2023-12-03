@@ -1,0 +1,62 @@
+.Contact-content body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 0;
+}
+
+.Contact-content {
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/arpitamisal/Desktop/CMPE_PROJECT/CMPE131Project/frontend/public/images/image8.jpeg'); /* Add your image URL here */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  padding: 20px;
+}
+
+.Contact-content h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.Contact-content form {
+  background-color: #faf6f6;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Contact-content label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Contact-content input[type="text"],
+.Contact-content input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.Contact-content input[type="submit"] {
+  background-color: #4a719c;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 3px;
+  width: 360px;
+  cursor: pointer;
+}
+
+.Contact-content input[type="submit"]:hover {
+  background-color: #1f3d5c;
+}
