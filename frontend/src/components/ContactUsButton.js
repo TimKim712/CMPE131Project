@@ -39,6 +39,7 @@ export const ContactUsButton = ({
         type={type}
       >
         {children}
+        Contact Us
       </button>
     </Link>
   );

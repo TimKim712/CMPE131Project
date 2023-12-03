@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page snapshot 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="navbar-container"
+  >
+    <a
+      className="navbar-logo"
+      href="/"
+      onClick={[Function]}
+    >
+      City Of Williamston
+      <i
+        class="fas fa-landmark"
+      />
+    </a>
+    <div
+      className="menu-icon"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bars"
+      />
+    </div>
+    <ul
+      className="nav-menu"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/contacts"
+          onClick={[Function]}
+        >
+          Contacts
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/services"
+          onClick={[Function]}
+        >
+          Services
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/sign-up"
+          onClick={[Function]}
+        >
+          Sign Up
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-links-mobile"
+          href="/sign-in"
+          onClick={[Function]}
+        >
+          Sign In
+        </a>
+      </li>
+    </ul>
+    <a
+      className="btn-mobile"
+      href="/sign-up"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--medium"
+      >
+        SIGN IN
+      </button>
+    </a>
+  </div>
+</nav>
+`;
+
+exports[`Navbar snapshot 1`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="navbar-container"
+  >
+    <a
+      className="navbar-logo"
+      href="/"
+      onClick={[Function]}
+    >
+      City Of Williamston
+      <i
+        class="fas fa-landmark"
+      />
+    </a>
+    <div
+      className="menu-icon"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bars"
+      />
+    </div>
+    <ul
+      className="nav-menu"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/contacts"
+          onClick={[Function]}
+        >
+          Contacts
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/services"
+          onClick={[Function]}
+        >
+          Services
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/sign-up"
+          onClick={[Function]}
+        >
+          Sign Up
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-links-mobile"
+          href="/sign-in"
+          onClick={[Function]}
+        >
+          Sign In
+        </a>
+      </li>
+    </ul>
+    <a
+      className="btn-mobile"
+      href="/sign-up"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--medium"
+      >
+        SIGN IN
+      </button>
+    </a>
+  </div>
+</nav>
+`;
+
+exports[`Navbar snapshot 2`] = `
+<nav
+  className="navbar"
+>
+  <div
+    className="navbar-container"
+  >
+    <a
+      className="navbar-logo"
+      href="/"
+      onClick={[Function]}
+    >
+      City Of Williamston
+      <i
+        class="fas fa-landmark"
+      />
+    </a>
+    <div
+      className="menu-icon"
+      onClick={[Function]}
+    >
+      <i
+        className="fas fa-bars"
+      />
+    </div>
+    <ul
+      className="nav-menu"
+    >
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/contacts"
+          onClick={[Function]}
+        >
+          Contacts
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/services"
+          onClick={[Function]}
+        >
+          Services
+        </a>
+      </li>
+      <li
+        className="nav-item"
+      >
+        <a
+          className="nav-links"
+          href="/sign-up"
+          onClick={[Function]}
+        >
+          Sign Up
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-links-mobile"
+          href="/sign-in"
+          onClick={[Function]}
+        >
+          Sign In
+        </a>
+      </li>
+    </ul>
+    <a
+      className="btn-mobile"
+      href="/sign-up"
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--medium"
+      >
+        SIGN IN
+      </button>
+    </a>
+  </div>
+</nav>
+`;
