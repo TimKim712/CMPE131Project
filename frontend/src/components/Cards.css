@@ -111,8 +111,29 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .cards__item {
-    margin-bottom: 2rem;
+.cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* This will center the card items in the wrapper */
+  gap: 20px; /* Adjust the gap to your preference */
+}
+
+.cards__items {
+  display: flex;
+  flex: 0 1 calc(33.333% - 20px); /* Allows the boxes to grow and shrink with a base size */
+  justify-content: center; /* Center the content of each card item if there is extra space */
+  margin-bottom: 20px; /* Margin bottom for spacing between rows */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 960px) {
+  .cards__items {
+    flex: 0 1 calc(50% - 20px); /* Half width minus the gap for medium screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .cards__items {
+    flex: 0 1 100%; /* Full width for small screens */
   }
 }

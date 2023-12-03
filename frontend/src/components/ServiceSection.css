@@ -1,61 +1,55 @@
-#support-faqs,
-#customer-forums,
-#instructional-videos,
-#informational-newsletters,
-#webinars,
-#request-forms,
-#online-courses,
-#social-updates {
-  width: 60%;
-  margin: 0 auto;
-  padding: 30px;
-  border: 2px solid #e5e5e5;
-  border-radius: 8px;
-  margin-bottom: 30px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 
-/* Heading style */
-.section h2 {
+.Service-content body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
   text-align: center;
-  font-size: 24px;
-  color: #a20f0f;
-  margin-bottom: 20px;
-}
-
-/* Navigation list style */
-.section nav ul {
-  list-style: none;
   padding: 0;
 }
 
-/* Navigation list items style */
-.section nav ul li {
-  margin-bottom: 15px;
+.Service-content {
+  font-family: Arial, sans-serif;
+  background-image: url('/Users/arpitamisal/Desktop/CMPE_PROJECT/CMPE131Project/frontend/public/images/image8.jpeg'); /* Add your image URL here */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+  padding: 20px;
+  
 }
 
-/* Link style */
-.section a {
-  text-decoration: none;
-  color: #555;
-  transition: color 0.3s;
-}
-
-.section a:hover {
-  color: #007bff;
-}
-
-/* Footer style */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #f2f2f2;
-  color: #666;
+.Service-content h2 {
+  color: #ffffff;
   text-align: center;
-  padding: 15px 0;
-  font-size: 14px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 
+.Service-content ul {
+  background-color: #faf6f6;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.Service-content li {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.Service-content a {
+  display: block; /* Make the link fill the entire box */
+  margin-bottom: 30px;
+  font-size: 18px; /* Font size of links */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: none; /* Removes the underline from links */
+  color: #220150; /* Link color */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Service-content a:hover {
+  color: #ffffff; /* Color change on hover */
+}
