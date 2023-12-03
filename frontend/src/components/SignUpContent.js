@@ -19,17 +19,17 @@ function SignUpContent() {
       <label for="password-confirm">Password Confirm:</label>
       <input type="password" id="password-confirm" name="password-confirm" required />
 
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
+      {/* <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required /> */}
 
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required />
 
       <label for="phone">Phone Number:</label>
       <input type="text" id="phone" name="phone" required />
-
+{/* 
       <label for="authentication-code">Authentication Code:</label>
-      <input type="password" id="authentication-code" name="authentication-code" required />
+      <input type="password" id="authentication-code" name="authentication-code" required /> */}
 
       <input type="submit" value="Sign Up" />
     </form>
