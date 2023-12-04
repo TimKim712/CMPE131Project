@@ -43,11 +43,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/contacts'
+                to='/make-post'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Contacts
+                Post
               </Link>
             </li>
             <li className='nav-item'>
