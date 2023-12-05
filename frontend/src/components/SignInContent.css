@@ -7,7 +7,7 @@
 
 .SignIn-content {
   font-family: Arial, sans-serif;
-  background-image: url('/Users/arpitamisal/Desktop/CMPE_PROJECT/CMPE131Project/frontend/public/images/image8.jpeg'); /* Add your image URL here */
+  background-image: url('../../public/images/image8.jpeg'); /* Add your image URL here */
   background-size: cover; /* Cover the entire area */
   background-position: center; /* Center the image */
   padding: 20px;
