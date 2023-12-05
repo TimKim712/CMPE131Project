@@ -11,6 +11,7 @@ function MakePostContent() {
     title: '',
     type:'',
     description: '',
+    eventDate: '', // Added state for event date
     image: ''
   });
 
@@ -32,6 +33,9 @@ function MakePostContent() {
     formData.append('type', postData.type);
     formData.append('description', postData.description);
     formData.append('image', postData.image); // Assuming 'image' is the file object
+    if (postData.type === 'events') {
+      formData.append('eventDate', postData.eventDate);
+    }
 
     try {
         const response = await fetch('http://localhost:8081/posts', {
@@ -45,7 +49,7 @@ function MakePostContent() {
 
         const result = await response.json();
         console.log(result);
-
+        alert(`Post Created!`);
         // Navigate to another route on success
         history.push('/');
       
@@ -77,7 +81,23 @@ function MakePostContent() {
         <option value="news">News</option>
 
 </select>
-        <label htmlFor="description">Description:</label>
+
+{/* Conditional rendering for event date */}
+{postData.type === 'events' && (
+          <div className="date">
+            <label htmlFor="eventDate">Event Date:</label>
+            <input
+              type="date"
+              id="eventDate"
+              name="eventDate"
+              onChange={handleChange}
+              required={postData.type === 'events'}
+            />
+          
+          </div>
+        )}
+
+        <label className='description' htmlFor="description">Description:</label>
         <textarea type='text' id="description" name="description" required onChange={handleChange} />
 
         <label htmlFor="image">Image:</label>

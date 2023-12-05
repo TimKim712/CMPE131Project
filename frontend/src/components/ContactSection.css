@@ -7,7 +7,7 @@
 
 .Contact-content {
   font-family: Arial, sans-serif;
-  background-image: url('/Users/arpitamisal/Desktop/CMPE_PROJECT/CMPE131Project/frontend/public/images/image8.jpeg'); /* Add your image URL here */
+  background-image: url('../../public/images/image8.jpeg'); /* Add your image URL here */
   background-size: cover; /* Cover the entire area */
   background-position: center; /* Center the image */
   padding: 20px;
@@ -59,4 +59,17 @@
 
 .Contact-content input[type="submit"]:hover {
   background-color: #1f3d5c;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

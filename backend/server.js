@@ -96,14 +96,13 @@ app.get('/posts',(req, res) => {
 // });
 
 app.post('/posts', upload.single('image'), (req, res) => {
-    const { username, title, type, description } = req.body;
+    const { username, title, type, description, eventDate } = req.body;
     const image = req.file; // This will contain your image data
-
+    
     // Use 'image.filename' to store just the filename
     const imageFilename = image ? image.filename : null;
-
-    const sql = "INSERT INTO posts (username, title, type, description, image) VALUES (?, ?, ?, ?, ?)";
-    db.query(sql, [username, title, type, description, imageFilename], (err, data) => {
+    const sql = "INSERT INTO posts (username, title, type, description, image, eventDate) VALUES (?, ?, ?, ?, ?, ?)";
+    db.query(sql, [username, title, type, description, imageFilename, eventDate], (err, data) => {
         if(err) {
             return res.status(400).json({ error: err.message });
         }
@@ -112,8 +111,53 @@ app.post('/posts', upload.single('image'), (req, res) => {
 });
 
 
+// app.post('/contact', (req, res) => {
+//     const { name, email, phonenumber, message } = req.body;
+//     const sql = "INSERT INTO contactdetails (name, email, phonenumber, message) VALUES (?, ?, ?, ?)";
+//     // Executing the query
+//     db.query(sql, [name, email, phonenumber, message], (err, data) => {
+//         if(err) {
+//             return res.status(400).json({ error: err.message });
+//         }
+//         res.status(201).json({ message: "Contact Submitted", contactId: data.insertId });
+//     });
+// });
 
+app.post('/contact', (req, res) => {
+    const { name, email, phonenumber, message } = req.body;
+    console.log(req.body, 'req')
+    // Basic validation (can be expanded)
+    if (!name || !email || !phonenumber || !message) {
+        return res.status(400).json({ error: "All fields are required" });
+    }
 
+    const sql = "INSERT INTO contactdetails (name, email, phonenumber, message) VALUES (?, ?, ?, ?)";
+    db.query(sql, [name, email, phonenumber, message], (err, data) => {
+        if(err) {
+            // Log the error for internal use
+            console.error(err.message);
+            // Return a generic error message to the client
+            return res.status(500).json({ error: "Internal server error" });
+        }
+        res.status(201).json({ message: "Contact Form Submitted", contactId: data.insertId });
+    });
+});
+
+app.get('/contact',(req, res) => {
+    const sql = "SELECT * FROM contactdetails;";
+    db.query(sql, (err, data) => {
+        if(err) return res.json(err);
+        return res.json(data);
+    })
+})
+
+app.get('/events', (req, res) => {
+    const sql = "SELECT title, description, eventDate FROM posts WHERE eventDate IS NOT NULL;";
+    db.query(sql, (err, data) => {
+        if (err) return res.json(err);
+        return res.json(data);
+    });
+});
 
 
 app.listen(8081, () => {

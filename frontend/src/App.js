@@ -9,6 +9,7 @@ import SignUp from './components/pages/SignUp';
 import AboutUs from './components/pages/AboutUs';
 import SignIn from './components/pages/SignIn';
 import MakePost from './components/pages/MakePost';
+import Calendar from './components/pages/Calendar';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about-us' component={AboutUs} />
           <Route path='/sign-in' component={SignIn} />
           <Route path='/make-post' component={MakePost} />
+          <Route path='/calendar' component={Calendar} />
         </Switch>
       </Router>
     </>
